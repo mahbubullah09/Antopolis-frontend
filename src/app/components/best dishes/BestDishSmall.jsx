@@ -101,7 +101,7 @@ const BestDishSmall = () => {
 
                         </div>
                     </div>
-                    <div data-aos="fade-left" className=" bg-white shadow-md rounded-b-2xl overflow-hidden">
+                    <div data-aos="fade-right" className=" bg-white shadow-md rounded-b-2xl overflow-hidden">
                         <Image src={bd1} height={300} width={420} alt="image" />
 
                         <div className="px-[10px] mx-auto">
@@ -121,7 +121,7 @@ const BestDishSmall = () => {
 
                         </div>
                     </div>
-                    <div data-aos="fade-right" className=" bg-white shadow-md rounded-b-2xl overflow-hidden">
+                    <div data-aos="fade-left" className=" bg-white shadow-md rounded-b-2xl overflow-hidden">
                         <Image src={bd1} height={300} width={420} alt="image" />
 
                         <div className="px-[10px] mx-auto">
