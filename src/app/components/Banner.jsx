@@ -25,7 +25,7 @@ const Banner = () => {
     };
 
     useEffect(() => {
-        const timeoutId = setTimeout(() => setPrevImage(selectedImage), 500); // Smooth transition delay
+        const timeoutId = setTimeout(() => setPrevImage(selectedImage), 500); 
         return () => clearTimeout(timeoutId);
     }, [selectedImage]);
 
