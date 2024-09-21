@@ -5,6 +5,7 @@ import About from "./components/about/About";
 import WPCU from "./components/people choose us/WPCU";
 import BestDish from "./components/best dishes/BestDish";
 import CF from "./components/customer feedback/CF";
+import TM from "./components/team member/TM";
 
 
 export default function Home() {
@@ -16,7 +17,8 @@ export default function Home() {
       <WPCU/>
       <BestDish/>
       <CF/>
-
+      
+      <TM/>
       
     </div>
   );
